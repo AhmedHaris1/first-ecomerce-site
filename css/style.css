@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+:root {
+    --main-bg-color:#2874f0
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Tektur', cursive;
+}
+
+header {
+    background-color: var(--main-bg-color); 
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img {
+    width: 60px;
+    padding: 0 20px;
+}
+
+nav ul {
+    height: 55px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* color: rgb(136, 12, 207); */
+    font-weight: bold;
+}
+
+.searchBar {
+    display: flex;
+    height: 30px;
+    margin: auto 0;
+}
+  
+#searchid {
+    width: 35vw;
+    border-radius: 0 10px;
+    text-align: center;
+    margin: 0 5px 0 40px;
+}
+
+.btn {
+    width: 70px;
+    height: 20px;
+    margin: 5px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border-radius: 0 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover {
+    font-weight: 900 ;
+}
+
+/* .container {
+    height: calc(100vh - 55px - 50px);
+} */
+
+.slider {
+    margin: 15px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.cart {
+    margin: 30px auto;
+    max-width: 90vw;
+}
+
+.carts {
+    display: flex;
+    overflow: scroll;
+}
+
+/*hides scrollbar for chrome, safari, opera*/
+.carts::-webkit-scrollbar {
+    display: none; 
+}
+
+/*hides scrollbar for IE, edge, firfox*/
+.carts {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.cart-item {
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 25px;
+    background-color: rgba(71, 61, 139, 0.171);
+}
+
+.cart-item:hover {
+    cursor: pointer;
+}
+
+.cart-item img {
+    border-radius: 25px 25px 5px 5px ;
+    width: 160px;
+    height: 160px;
+}
+
+.cart-item:hover img {
+    transform: scale(1.03, 1.03);
+}
+
+footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: white;
+    margin-top: 30px;
+}   
+

@@ -1,0 +1,39 @@
+@media screen and  (max-width:1000px){
+    .logo {
+        margin: 5px 0 10px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        height: 30px;
+    }
+
+    .searchBar {
+        margin: 10px 0 ;
+    }
+
+    #searchid {
+        margin: 0;
+    }
+
+    /* .slider img {
+        width: 500px;
+        height: 25vh;
+    } */
+
+    .slider {
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .cart-item img {
+        width: 120px;
+        height: 120px;
+    }
+
+    
+}
